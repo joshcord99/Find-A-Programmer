@@ -21,6 +21,7 @@ const router = createBrowserRouter([
         path: '/SavedCandidates',
         element: <SavedCandidates />,
       },
+      
     ],
   },
 ]);

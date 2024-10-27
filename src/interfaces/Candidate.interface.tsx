@@ -6,8 +6,9 @@ interface Candidate {
     avatar: string;    
     html_url: string;       
     location?: string;   
-    email?: string;        
+    email: string;        
     company?: string;   
+    bio: string;
   };
 
   export default Candidate;

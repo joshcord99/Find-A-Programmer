@@ -5,12 +5,15 @@ const Nav = () => {
 
   return (
     <>
-      <button onClick={() => navigate('/')}>
+    <div className='nav'>
+      <button className='nav-link' onClick={() => navigate('/')}>
         Home
       </button>
-      <button onClick={() => navigate('/SavedCandidates')}>
+
+      <button className='nav-link' onClick={() => navigate('/SavedCandidates')}>
         Potential Candidates
       </button>
+      </div>
     </>
   );
 };

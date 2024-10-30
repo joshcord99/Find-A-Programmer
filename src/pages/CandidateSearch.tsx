@@ -38,8 +38,6 @@ const CandidateSearch = () => {
         })
       })
   }
-
-
   useEffect(() => {
     searchGithub()
       .then(usersData => {

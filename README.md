@@ -7,7 +7,6 @@ The Candidate Search Application is a front-end web application built with React
 <!-- Insert Gif/image Here -->
 <!-- ![](insert image/gif link here from github repo) -->
 
-//List the main sections of the README for easy navigation, especially for longer documents.
 ## Table of Contents
 - [Installation Instructions](#installation-instructions)
 - [Contributions](#contributions)

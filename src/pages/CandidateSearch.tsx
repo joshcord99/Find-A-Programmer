@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { searchGithub, searchGithubUser } from "../api/API";
 import Candidate from "../interfaces/Candidate.interface";
 
+
 const CandidateSearch = () => {
   const [allUsers, setAllusers] = useState<any[]>([]);
   const [currentUser, setCurrentUser] = useState<Candidate>({
@@ -38,6 +39,7 @@ const CandidateSearch = () => {
     );
     const updatedCandidates = [...savedCandidates, currentUser];
     localStorage.setItem("savedCandidates", JSON.stringify(updatedCandidates));
+    goNext()
   }
 
   useEffect(() => {
@@ -78,8 +80,8 @@ const CandidateSearch = () => {
       </div>
 
       <div className="button">
-        <button onClick={goNext}>-</button>
-        <button onClick={saveCurrentCandidate}>+</button>
+        <button onClick={goNext} style = {{backgroundColor: 'red', cursor: 'pointer', borderRadius: '50%', color: 'black'}}>-</button>
+        <button onClick={saveCurrentCandidate} style = {{backgroundColor: 'green', cursor: 'pointer', borderRadius: '50%', color: 'black'}}>+</button>
       </div>
     </>
   );

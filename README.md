@@ -5,7 +5,7 @@ https://find-a-programmer.onrender.com/
 The Candidate Search Application is a front-end web application built with React and TypeScript. It connects to the GitHub API to allow employers to search for candidates, view their profiles, and save potential candidates for future consideration.
 
 <!-- Insert Gif/image Here -->
-<!-- ![](insert image/gif link here from github repo) -->
+![](https://github.com/joshcord99/Find-A-Programmer/blob/main/src/assets/Screenshot%202024-11-04%20at%209.26.55%E2%80%AFPM.png)
 
 ## Table of Contents
 - [Installation Instructions](#installation-instructions)

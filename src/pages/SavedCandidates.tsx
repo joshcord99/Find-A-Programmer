@@ -45,7 +45,19 @@ const SavedCandidates = () => {
               <td>{candidate.company}</td>
               <td>{candidate.bio}</td>
               <td>
-                <button onClick={() => removeCandidate(candidate.id)}>Reject</button>
+                <button 
+                  onClick={() => removeCandidate(candidate.id)}
+                  style={{
+                    backgroundColor: "red",
+                    color: "white",
+                    border: "none",
+                    padding: "8px 16px",
+                    borderRadius: "4px",
+                    cursor: "pointer"
+                  }}
+                >
+                  Remove
+                </button>
               </td>
             </tr>
           ))}

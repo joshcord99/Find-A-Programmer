@@ -8,8 +8,6 @@ The Candidate Search Application is a front-end web application built with React
 
 ## Screenshots
 
-### Main Search Interface
-
 ![Main Search Interface](src/assets/interface-1.png)
 
 ### Saved Candidates Interface
